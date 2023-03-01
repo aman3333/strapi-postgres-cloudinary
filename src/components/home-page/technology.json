@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_page_technologies",
+  "info": {
+    "displayName": "technology",
+    "icon": "mobile-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology"
+    }
+  }
+}

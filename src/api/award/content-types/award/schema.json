@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awards",
+  "info": {
+    "singularName": "award",
+    "pluralName": "awards",
+    "displayName": "awards",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

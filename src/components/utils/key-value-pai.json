@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_utils_key_value_pais",
+  "info": {
+    "displayName": "menu item",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "redirect_to_link": {
+      "type": "string"
+    }
+  }
+}

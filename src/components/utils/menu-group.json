@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utils_menu_groups",
+  "info": {
+    "displayName": "menu group",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Group_name": {
+      "type": "string",
+      "required": true
+    },
+    "menu_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.key-value-pai"
+    }
+  }
+}

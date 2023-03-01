@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "home page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_of_page": {
+      "type": "string",
+      "required": true
+    },
+    "award_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.award-section"
+    },
+    "client_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.our-client"
+    },
+    "technology": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.technology"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.testimonial"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.service-section"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.home-banner"
+    },
+    "recent_work": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.recent-work-section"
+    }
+  }
+}

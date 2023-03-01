@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_page_recent_work_sections",
+  "info": {
+    "displayName": "recent_work_section",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "our_works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::our-work.our-work"
+    }
+  }
+}

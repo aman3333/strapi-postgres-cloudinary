@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_page_home_banners",
+  "info": {
+    "displayName": "home_banner",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "banner_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "get_quote_action": {
+      "type": "string"
+    },
+    "learn_more_action": {
+      "type": "string"
+    }
+  }
+}

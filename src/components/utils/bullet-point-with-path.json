@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_utils_bullet_point_with_paths",
+  "info": {
+    "displayName": "bullet-point-with-path"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "index": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "contected_node_index": {
+      "type": "string",
+      "minLength": 1
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "required": true
+    }
+  }
+}

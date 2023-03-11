@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_web_development_stats_sections",
+  "info": {
+    "displayName": "stats-section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.key-value"
+    }
+  }
+}

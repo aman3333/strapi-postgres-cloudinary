@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_utils_card_contents",
+  "info": {
+    "displayName": "card_content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

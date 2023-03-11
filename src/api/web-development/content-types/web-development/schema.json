@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_developments",
+  "info": {
+    "singularName": "web-development",
+    "pluralName": "web-developments",
+    "displayName": "web_development",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hero_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "web-development.hero-section"
+    },
+    "stats_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "web-development.stats-section"
+    },
+    "process_secton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "web-development.our-process"
+    },
+    "recent_work": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.recent-work-section"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_web_development_our_processes",
+  "info": {
+    "displayName": "our-process",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "bullet_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.bullet-point-with-path"
+    }
+  }
+}
